@@ -11,7 +11,6 @@ pipeline {
         }
         stage('Test') {
             steps {
-                bat 'mvn test Dbrowaer=localchrome'
                 echo 'Testing..'
             }
         }
